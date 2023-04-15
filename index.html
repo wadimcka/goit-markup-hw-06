@@ -395,8 +395,8 @@
       <form>
         <p class="futer-form-paragraph">Subscribe</p>
         <div class="futer-form-wrap">
-          <label for="futer-form-email" aria-label="email"></label>
-          <input class="footer-input" type="futer-form-email" name="email" id="email" placeholder="E-mail">
+          <label for="email" aria-label="email"></label>
+          <input class="footer-input" type="email" name="email" id="email" placeholder="E-mail">
           <button type="submit" class="footer-btn button">
             <span class="footer-btn-icon">Subscribe
               <svg class="footer-btn-icon" width="24" height="24">
@@ -417,6 +417,43 @@
           <use href="./images/svg/icons.svg#icon_modal_close"></use>
         </svg>
       </button>
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+      <form class="form-modal">
+
+        <label class="form-lable" for="customer-name">Name</label>
+        <div class="form-input-wrap">
+          <input class="form-input" type="text" name="customer-name" id="customer-name">
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/svg/icons.svg#icon_person_black"></use>
+          </svg>
+        </div>
+
+        <label class="form-lable" for="form-tel">Phone</label>
+        <div class="form-input-wrap">
+          <input class="form-input" type="tel" name="phone" id="form-tel">
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/svg/icons.svg#icon_phone"></use>
+          </svg>
+        </div>
+
+        <label class="form-lable" for="form-email">Email</label>
+        <div class="form-input-wrap">
+          <input class="form-input" type="email" name="email" id="form-email">
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/svg/icons.svg#icon_envelope"></use>
+          </svg>
+        </div>
+
+        <label class="form-lable" for="comment">Comment</label>
+        <textarea class="form-input form-comment" name="comment" id="comment" placeholder="Text input"></textarea>
+
+        <input class="form-chek" type="checkbox" name="email">
+        <label class="form-chek-label" for="">I accept the terms and conditions of the <a href="">Privacy
+            Policy</a></label>
+
+        <button class="form-btn button" type="submit">Send</button>
+
+      </form>
     </div>
   </div>
 
